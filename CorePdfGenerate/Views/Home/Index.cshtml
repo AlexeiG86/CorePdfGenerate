@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Generate PDF";
+}
+
+<h1>Generate PDF</h1>
+
+<form method="post" action="/Home/CreatePdf">
+    <label for="text">Enter text:</label><br>
+    <input type="text" id="text" name="text" required><br>
+    <input type="submit" value="Generate PDF">
+</form>
